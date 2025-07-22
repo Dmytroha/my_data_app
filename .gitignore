@@ -1,0 +1,85 @@
+# .gitignore for Flutter projects
+
+.DS_Store
+.gradle
+.idea/
+.vscode/
+build/
+*.iml
+*.ipr
+*.iws
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+.pub-cache/
+.classpath
+.project
+.settings
+.vs/
+target/
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/.last_flutter_build
+/ios/Flutter/.ios_symlinks_by_file_path
+/android/.gradle
+/android/local.properties
+/android/keystore.properties
+/android/.idea
+/android/build
+/android/app/build
+/android/captures/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/app/src/main/res/mipmap-*
+/android/app/src/main/res/drawable-*
+/android/app/src/main/res/values/values.xml # If you auto-generate this, exclude it
+/android/app/src/main/kotlin/com/example/<YOUR_APP_NAME_HERE>/MainActivity.kt # If your activity class name contains the sensitive data, exclude it
+/linux/
+/windows/
+/macos/
+/web/
+/.dart_tool
+/node_modules/
+.env # Очень важно: исключаем .env файл! Он содержит конфиденциальные данные.
+.env_*
+
+# Flutter specific
+# Generated file, do not commit
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.m
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Flutter/ephemeral/
+ios/Flutter/.ios_build_sdk_path
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/app.framework
+ios/Flutter/Flutter.xcconfig
+ios/Flutter/Debug-iphonesimulator/
+ios/Flutter/Release-iphoneos/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/xcshareddata/
+# Android specific
+android/.gradle
+android/local.properties
+android/key.properties
+android/app/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/.idea/
+# VS Code specific
+.vscode/
+# Other
+.DS_Store
+build/
+.pub-cache
+.dart_tool
+.packages
