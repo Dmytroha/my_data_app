@@ -43,8 +43,10 @@ target/
 /web/
 /.dart_tool
 /node_modules/
+
 .env # Очень важно: исключаем .env файл! Он содержит конфиденциальные данные.
 .env_*
+code._.bat
 
 # Flutter specific
 # Generated file, do not commit
