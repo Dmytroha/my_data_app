@@ -44,7 +44,7 @@ target/
 /.dart_tool
 /node_modules/
 
-.env # Очень важно: исключаем .env файл! Он содержит конфиденциальные данные.
+.env
 .env_*
 code._.bat
 
